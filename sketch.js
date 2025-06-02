@@ -8,12 +8,12 @@ let blue = '#4A31FF';
 
 function preload() {
   // coinImg = loadImage('../assets/coin.png'); // Adjust path based on your folder structure
-  logoImg = loadImage('../assets/logo.png'); // Load the logo image
-  coinSound = loadSound('../assets/coinSound.mp3'); // Adjust the path and filename as needed
-  coin1 = loadImage('../assets/coins-01.png');
-  coin2 = loadImage('../assets/coins-02.png');
-  coin3 = loadImage('../assets/coins-03.png');
-  coin4 = loadImage('../assets/coins-04.png');
+  logoImg = loadImage('assets/logo.png'); // Load the logo image
+  coinSound = loadSound('assets/coinSound.mp3'); // Adjust the path and filename as needed
+  coin1 = loadImage('assets/coins-01.png');
+  coin2 = loadImage('assets/coins-02.png');
+  coin3 = loadImage('assets/coins-03.png');
+  coin4 = loadImage('assets/coins-04.png');
 }
 
 function setup() {
